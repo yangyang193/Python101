@@ -1,0 +1,12 @@
+# 核心依赖（必需）
+requests>=2.31.0
+
+# Web界面（第3周 Streamlit 版本需要）
+streamlit>=1.28.0
+
+# TTS功能（第2周语音合成需要）
+websocket-client>=1.6.0
+
+# 音频播放（第2周 TTS功能需要，可选，有系统默认播放器作为备选）
+pygame>=2.5.0
+
