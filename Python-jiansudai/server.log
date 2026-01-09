@@ -1,0 +1,640 @@
+==================================================
+飞跃减速带实验系统 - 后端服务器
+==================================================
+服务器启动在: http://localhost:5001
+API文档:
+  POST /api/analyze - 分析用户选择
+  POST /api/chat - 与角色对话
+  POST /api/simulation/advanced - 高级物理模拟
+  POST /api/report/generate - 生成报告
+  GET  /api/statistics - 获取统计数据
+  GET  /api/history/<session_id> - 获取会话历史
+  POST /api/recommend - 智能参数推荐
+  POST /api/risk/assess - 实时风险评估
+  POST /api/learning/path - 个性化学习路径
+  POST /api/report/title - 智能报告标题生成
+  POST /api/debate - 多角色辩论生成
+  POST /api/questions/generate - 智能问题生成
+  POST /api/physics/calculate - 物理学家计算模拟结果
+  POST /api/physics/analyze - 物理学家公式分析（支持流式输出）
+  POST /api/design/chart - 可视化设计师设计图表
+==================================================
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://172.20.10.2:5001
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 137-690-107
+127.0.0.1 - - [06/Jan/2026 21:00:10] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jan/2026 21:00:26] "HEAD / HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jan/2026 21:00:32] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jan/2026 21:00:33] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [06/Jan/2026 21:00:33] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+ * Detected change in '/Users/yangyang/Desktop/Python-jiansudai/ren/d3.py', reloading
+==================================================
+飞跃减速带实验系统 - 后端服务器
+==================================================
+服务器启动在: http://localhost:5001
+API文档:
+  POST /api/analyze - 分析用户选择
+  POST /api/chat - 与角色对话
+  POST /api/simulation/advanced - 高级物理模拟
+  POST /api/report/generate - 生成报告
+  GET  /api/statistics - 获取统计数据
+  GET  /api/history/<session_id> - 获取会话历史
+  POST /api/recommend - 智能参数推荐
+  POST /api/risk/assess - 实时风险评估
+  POST /api/learning/path - 个性化学习路径
+  POST /api/report/title - 智能报告标题生成
+  POST /api/debate - 多角色辩论生成
+  POST /api/questions/generate - 智能问题生成
+  POST /api/physics/calculate - 物理学家计算模拟结果
+  POST /api/physics/analyze - 物理学家公式分析（支持流式输出）
+  POST /api/design/chart - 可视化设计师设计图表
+==================================================
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 137-690-107
+127.0.0.1 - - [06/Jan/2026 21:01:10] "GET / HTTP/1.1" 200 -
+ * Detected change in '/Users/yangyang/Desktop/Python-jiansudai/ren/aqy.py', reloading
+==================================================
+飞跃减速带实验系统 - 后端服务器
+==================================================
+服务器启动在: http://localhost:5001
+API文档:
+  POST /api/analyze - 分析用户选择
+  POST /api/chat - 与角色对话
+  POST /api/simulation/advanced - 高级物理模拟
+  POST /api/report/generate - 生成报告
+  GET  /api/statistics - 获取统计数据
+  GET  /api/history/<session_id> - 获取会话历史
+  POST /api/recommend - 智能参数推荐
+  POST /api/risk/assess - 实时风险评估
+  POST /api/learning/path - 个性化学习路径
+  POST /api/report/title - 智能报告标题生成
+  POST /api/debate - 多角色辩论生成
+  POST /api/questions/generate - 智能问题生成
+  POST /api/physics/calculate - 物理学家计算模拟结果
+  POST /api/physics/analyze - 物理学家公式分析（支持流式输出）
+  POST /api/design/chart - 可视化设计师设计图表
+==================================================
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 137-690-107
+127.0.0.1 - - [06/Jan/2026 21:19:14] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jan/2026 21:19:33] "POST /api/physics/calculate HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jan/2026 21:20:29] "POST /api/physics/analyze HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jan/2026 21:21:47] "POST /api/analyze HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jan/2026 21:23:04] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jan/2026 21:26:24] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jan/2026 21:32:08] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jan/2026 21:35:00] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jan/2026 21:35:02] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jan/2026 21:35:03] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jan/2026 21:35:04] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jan/2026 21:35:50] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jan/2026 21:35:51] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jan/2026 21:35:52] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jan/2026 21:36:02] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jan/2026 21:36:07] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jan/2026 21:36:52] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jan/2026 21:39:42] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jan/2026 21:39:43] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jan/2026 21:42:51] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jan/2026 21:47:12] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jan/2026 21:47:13] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jan/2026 21:47:14] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jan/2026 21:47:14] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jan/2026 21:47:37] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jan/2026 21:48:22] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jan/2026 21:48:54] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jan/2026 21:48:55] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jan/2026 21:48:56] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jan/2026 21:48:56] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jan/2026 21:49:05] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jan/2026 21:53:36] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jan/2026 21:53:38] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jan/2026 22:19:29] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jan/2026 22:20:02] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jan/2026 22:21:40] "GET / HTTP/1.1" 200 -
+ * Detected change in '/Users/yangyang/Desktop/Python-jiansudai/ren/ll.py', reloading
+==================================================
+飞跃减速带实验系统 - 后端服务器
+==================================================
+服务器启动在: http://localhost:5001
+API文档:
+  POST /api/analyze - 分析用户选择
+  POST /api/chat - 与角色对话
+  POST /api/simulation/advanced - 高级物理模拟
+  POST /api/report/generate - 生成报告
+  GET  /api/statistics - 获取统计数据
+  GET  /api/history/<session_id> - 获取会话历史
+  POST /api/recommend - 智能参数推荐
+  POST /api/risk/assess - 实时风险评估
+  POST /api/learning/path - 个性化学习路径
+  POST /api/report/title - 智能报告标题生成
+  POST /api/debate - 多角色辩论生成
+  POST /api/questions/generate - 智能问题生成
+  POST /api/physics/calculate - 物理学家计算模拟结果
+  POST /api/physics/analyze - 物理学家公式分析（支持流式输出）
+  POST /api/design/chart - 可视化设计师设计图表
+==================================================
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 137-690-107
+127.0.0.1 - - [06/Jan/2026 22:25:52] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jan/2026 22:29:24] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jan/2026 22:29:43] "POST /api/physics/calculate HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jan/2026 22:30:31] "POST /api/physics/analyze HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jan/2026 22:31:09] "POST /api/analyze HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jan/2026 22:34:32] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jan/2026 22:35:06] "POST /api/physics/calculate HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jan/2026 22:35:53] "POST /api/physics/analyze HTTP/1.1" 200 -
+ * Detected change in '/Users/yangyang/Desktop/Python-jiansudai/app.py', reloading
+==================================================
+飞跃减速带实验系统 - 后端服务器
+==================================================
+服务器启动在: http://localhost:5001
+API文档:
+  POST /api/analyze - 分析用户选择
+  POST /api/chat - 与角色对话
+  POST /api/simulation/advanced - 高级物理模拟
+  POST /api/report/generate - 生成报告
+  GET  /api/statistics - 获取统计数据
+  GET  /api/history/<session_id> - 获取会话历史
+  POST /api/recommend - 智能参数推荐
+  POST /api/risk/assess - 实时风险评估
+  POST /api/learning/path - 个性化学习路径
+  POST /api/report/title - 智能报告标题生成
+  POST /api/debate - 多角色辩论生成
+  POST /api/questions/generate - 智能问题生成
+  POST /api/physics/calculate - 物理学家计算模拟结果
+  POST /api/physics/analyze - 物理学家公式分析（支持流式输出）
+  POST /api/design/chart - 可视化设计师设计图表
+==================================================
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 137-690-107
+ * Detected change in '/Users/yangyang/Desktop/Python-jiansudai/app.py', reloading
+==================================================
+飞跃减速带实验系统 - 后端服务器
+==================================================
+服务器启动在: http://localhost:5001
+API文档:
+  POST /api/analyze - 分析用户选择
+  POST /api/chat - 与角色对话
+  POST /api/simulation/advanced - 高级物理模拟
+  POST /api/report/generate - 生成报告
+  GET  /api/statistics - 获取统计数据
+  GET  /api/history/<session_id> - 获取会话历史
+  POST /api/recommend - 智能参数推荐
+  POST /api/risk/assess - 实时风险评估
+  POST /api/learning/path - 个性化学习路径
+  POST /api/report/title - 智能报告标题生成
+  POST /api/debate - 多角色辩论生成
+  POST /api/questions/generate - 智能问题生成
+  POST /api/physics/calculate - 物理学家计算模拟结果
+  POST /api/physics/analyze - 物理学家公式分析（支持流式输出）
+  POST /api/design/chart - 可视化设计师设计图表
+  POST /api/safety/chart-analysis - 安全员分析图表数据
+==================================================
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 137-690-107
+ * Detected change in '/Users/yangyang/Desktop/Python-jiansudai/app.py', reloading
+==================================================
+飞跃减速带实验系统 - 后端服务器
+==================================================
+服务器启动在: http://localhost:5001
+API文档:
+  POST /api/analyze - 分析用户选择
+  POST /api/chat - 与角色对话
+  POST /api/simulation/advanced - 高级物理模拟
+  POST /api/report/generate - 生成报告
+  GET  /api/statistics - 获取统计数据
+  GET  /api/history/<session_id> - 获取会话历史
+  POST /api/recommend - 智能参数推荐
+  POST /api/risk/assess - 实时风险评估
+  POST /api/learning/path - 个性化学习路径
+  POST /api/report/title - 智能报告标题生成
+  POST /api/debate - 多角色辩论生成
+  POST /api/questions/generate - 智能问题生成
+  POST /api/physics/calculate - 物理学家计算模拟结果
+  POST /api/physics/analyze - 物理学家公式分析（支持流式输出）
+  POST /api/design/chart - 可视化设计师设计图表
+  POST /api/safety/chart-analysis - 安全员分析图表数据
+==================================================
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 137-690-107
+127.0.0.1 - - [06/Jan/2026 22:52:04] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jan/2026 22:52:25] "POST /api/physics/calculate HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jan/2026 22:53:31] "POST /api/physics/analyze HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jan/2026 22:54:10] "POST /api/analyze HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jan/2026 23:03:25] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jan/2026 23:03:56] "POST /api/physics/calculate HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jan/2026 23:04:50] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jan/2026 23:04:54] "POST /api/physics/calculate HTTP/1.1" 200 -
+ * Detected change in '/Users/yangyang/Desktop/Python-jiansudai/app.py', reloading
+==================================================
+飞跃减速带实验系统 - 后端服务器
+==================================================
+服务器启动在: http://localhost:5001
+API文档:
+  POST /api/analyze - 分析用户选择
+  POST /api/chat - 与角色对话
+  POST /api/simulation/advanced - 高级物理模拟
+  POST /api/report/generate - 生成报告
+  GET  /api/statistics - 获取统计数据
+  GET  /api/history/<session_id> - 获取会话历史
+  POST /api/recommend - 智能参数推荐
+  POST /api/risk/assess - 实时风险评估
+  POST /api/learning/path - 个性化学习路径
+  POST /api/report/title - 智能报告标题生成
+  POST /api/debate - 多角色辩论生成
+  POST /api/questions/generate - 智能问题生成
+  POST /api/physics/calculate - 物理学家计算模拟结果
+  POST /api/physics/analyze - 物理学家公式分析（支持流式输出）
+  POST /api/design/chart - 可视化设计师设计图表
+  POST /api/safety/chart-analysis - 安全员分析图表数据
+==================================================
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 137-690-107
+127.0.0.1 - - [06/Jan/2026 23:05:12] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jan/2026 23:05:13] "POST /api/physics/calculate HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jan/2026 23:05:55] "POST /api/physics/analyze HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jan/2026 23:06:29] "POST /api/analyze HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jan/2026 23:13:37] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jan/2026 23:13:41] "POST /api/physics/calculate HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jan/2026 23:14:36] "POST /api/physics/analyze HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jan/2026 23:15:15] "POST /api/analyze HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jan/2026 23:19:07] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jan/2026 23:19:18] "POST /api/physics/calculate HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jan/2026 23:20:10] "POST /api/physics/analyze HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jan/2026 23:21:46] "POST /api/analyze HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jan/2026 23:25:11] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jan/2026 23:26:09] "POST /api/physics/calculate HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jan/2026 23:27:26] "POST /api/physics/analyze HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jan/2026 23:28:11] "POST /api/analyze HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jan/2026 23:28:31] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jan/2026 23:28:32] "POST /api/physics/calculate HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jan/2026 23:29:21] "POST /api/physics/analyze HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jan/2026 23:43:18] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jan/2026 23:43:30] "POST /api/physics/calculate HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jan/2026 23:44:27] "POST /api/physics/analyze HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jan/2026 23:45:23] "POST /api/analyze HTTP/1.1" 200 -
+127.0.0.1 - - [07/Jan/2026 00:04:31] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [07/Jan/2026 00:04:35] "POST /api/physics/calculate HTTP/1.1" 200 -
+127.0.0.1 - - [07/Jan/2026 00:05:19] "POST /api/physics/analyze HTTP/1.1" 200 -
+127.0.0.1 - - [07/Jan/2026 00:05:30] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [07/Jan/2026 00:05:32] "POST /api/physics/calculate HTTP/1.1" 200 -
+127.0.0.1 - - [07/Jan/2026 00:06:32] "POST /api/physics/analyze HTTP/1.1" 200 -
+127.0.0.1 - - [07/Jan/2026 00:14:42] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [07/Jan/2026 00:15:25] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [07/Jan/2026 00:16:26] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [07/Jan/2026 00:16:58] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [07/Jan/2026 00:17:18] "POST /api/physics/calculate HTTP/1.1" 200 -
+127.0.0.1 - - [07/Jan/2026 00:18:49] "POST /api/physics/analyze HTTP/1.1" 200 -
+127.0.0.1 - - [07/Jan/2026 00:20:07] "POST /api/analyze HTTP/1.1" 200 -
+127.0.0.1 - - [07/Jan/2026 00:23:00] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [07/Jan/2026 00:23:03] "POST /api/physics/calculate HTTP/1.1" 200 -
+127.0.0.1 - - [07/Jan/2026 00:24:13] "POST /api/physics/analyze HTTP/1.1" 200 -
+127.0.0.1 - - [07/Jan/2026 00:25:15] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [07/Jan/2026 00:25:19] "POST /api/analyze HTTP/1.1" 200 -
+127.0.0.1 - - [07/Jan/2026 00:25:35] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [07/Jan/2026 00:25:38] "POST /api/physics/calculate HTTP/1.1" 200 -
+127.0.0.1 - - [07/Jan/2026 00:26:32] "POST /api/physics/analyze HTTP/1.1" 200 -
+ * Detected change in '/Users/yangyang/Desktop/Python-jiansudai/app.py', reloading
+==================================================
+飞跃减速带实验系统 - 后端服务器
+==================================================
+服务器启动在: http://localhost:5001
+API文档:
+  POST /api/analyze - 分析用户选择
+  POST /api/chat - 与角色对话
+  POST /api/simulation/advanced - 高级物理模拟
+  POST /api/report/generate - 生成报告
+  GET  /api/statistics - 获取统计数据
+  GET  /api/history/<session_id> - 获取会话历史
+  POST /api/recommend - 智能参数推荐
+  POST /api/risk/assess - 实时风险评估
+  POST /api/learning/path - 个性化学习路径
+  POST /api/report/title - 智能报告标题生成
+  POST /api/debate - 多角色辩论生成
+  POST /api/questions/generate - 智能问题生成
+  POST /api/physics/calculate - 物理学家计算模拟结果
+  POST /api/physics/analyze - 物理学家公式分析（支持流式输出）
+  POST /api/design/chart - 可视化设计师设计图表
+==================================================
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 137-690-107
+ * Detected change in '/Users/yangyang/Desktop/Python-jiansudai/app.py', reloading
+==================================================
+飞跃减速带实验系统 - 后端服务器
+==================================================
+服务器启动在: http://localhost:5001
+API文档:
+  POST /api/analyze - 分析用户选择
+  POST /api/chat - 与角色对话
+  POST /api/simulation/advanced - 高级物理模拟
+  POST /api/report/generate - 生成报告
+  GET  /api/statistics - 获取统计数据
+  GET  /api/history/<session_id> - 获取会话历史
+  POST /api/recommend - 智能参数推荐
+  POST /api/risk/assess - 实时风险评估
+  POST /api/learning/path - 个性化学习路径
+  POST /api/report/title - 智能报告标题生成
+  POST /api/debate - 多角色辩论生成
+  POST /api/questions/generate - 智能问题生成
+  POST /api/physics/calculate - 物理学家计算模拟结果
+  POST /api/physics/analyze - 物理学家公式分析（支持流式输出）
+  POST /api/design/chart - 可视化设计师设计图表
+==================================================
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 137-690-107
+ * Detected change in '/Users/yangyang/Desktop/Python-jiansudai/app.py', reloading
+==================================================
+飞跃减速带实验系统 - 后端服务器
+==================================================
+服务器启动在: http://localhost:5001
+API文档:
+  POST /api/analyze - 分析用户选择
+  POST /api/chat - 与角色对话
+  POST /api/simulation/advanced - 高级物理模拟
+  POST /api/report/generate - 生成报告
+  GET  /api/statistics - 获取统计数据
+  GET  /api/history/<session_id> - 获取会话历史
+  POST /api/recommend - 智能参数推荐
+  POST /api/risk/assess - 实时风险评估
+  POST /api/learning/path - 个性化学习路径
+  POST /api/report/title - 智能报告标题生成
+  POST /api/debate - 多角色辩论生成
+  POST /api/questions/generate - 智能问题生成
+  POST /api/physics/calculate - 物理学家计算模拟结果
+  POST /api/physics/analyze - 物理学家公式分析（支持流式输出）
+  POST /api/design/chart - 可视化设计师设计图表
+==================================================
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 137-690-107
+ * Detected change in '/Users/yangyang/Desktop/Python-jiansudai/app.py', reloading
+==================================================
+飞跃减速带实验系统 - 后端服务器
+==================================================
+服务器启动在: http://localhost:5001
+API文档:
+  POST /api/analyze - 分析用户选择
+  POST /api/chat - 与角色对话
+  POST /api/simulation/advanced - 高级物理模拟
+  POST /api/report/generate - 生成报告
+  GET  /api/statistics - 获取统计数据
+  GET  /api/history/<session_id> - 获取会话历史
+  POST /api/recommend - 智能参数推荐
+  POST /api/risk/assess - 实时风险评估
+  POST /api/learning/path - 个性化学习路径
+  POST /api/report/title - 智能报告标题生成
+  POST /api/debate - 多角色辩论生成
+  POST /api/questions/generate - 智能问题生成
+  POST /api/physics/calculate - 物理学家计算模拟结果
+  POST /api/physics/analyze - 物理学家公式分析（支持流式输出）
+  POST /api/design/chart - 可视化设计师设计图表
+==================================================
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 137-690-107
+127.0.0.1 - - [07/Jan/2026 00:34:38] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [07/Jan/2026 00:34:55] "POST /api/physics/calculate HTTP/1.1" 200 -
+127.0.0.1 - - [07/Jan/2026 00:36:54] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [07/Jan/2026 00:36:57] "POST /api/physics/calculate HTTP/1.1" 200 -
+127.0.0.1 - - [07/Jan/2026 00:38:20] "POST /api/physics/analyze HTTP/1.1" 200 -
+127.0.0.1 - - [07/Jan/2026 00:39:34] "POST /api/analyze HTTP/1.1" 200 -
+ * Detected change in '/Users/yangyang/Desktop/Python-jiansudai/app.py', reloading
+==================================================
+飞跃减速带实验系统 - 后端服务器
+==================================================
+服务器启动在: http://localhost:5001
+API文档:
+  POST /api/analyze - 分析用户选择
+  POST /api/chat - 与角色对话
+  POST /api/simulation/advanced - 高级物理模拟
+  POST /api/report/generate - 生成报告
+  GET  /api/statistics - 获取统计数据
+  GET  /api/history/<session_id> - 获取会话历史
+  POST /api/recommend - 智能参数推荐
+  POST /api/risk/assess - 实时风险评估
+  POST /api/learning/path - 个性化学习路径
+  POST /api/report/title - 智能报告标题生成
+  POST /api/debate - 多角色辩论生成
+  POST /api/questions/generate - 智能问题生成
+  POST /api/physics/calculate - 物理学家计算模拟结果
+  POST /api/physics/analyze - 物理学家公式分析（支持流式输出）
+  POST /api/design/chart - 可视化设计师设计图表
+==================================================
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 137-690-107
+ * Detected change in '/Users/yangyang/Desktop/Python-jiansudai/app.py', reloading
+==================================================
+飞跃减速带实验系统 - 后端服务器
+==================================================
+服务器启动在: http://localhost:5001
+API文档:
+  POST /api/analyze - 分析用户选择
+  POST /api/chat - 与角色对话
+  POST /api/simulation/advanced - 高级物理模拟
+  POST /api/report/generate - 生成报告
+  GET  /api/statistics - 获取统计数据
+  GET  /api/history/<session_id> - 获取会话历史
+  POST /api/recommend - 智能参数推荐
+  POST /api/risk/assess - 实时风险评估
+  POST /api/learning/path - 个性化学习路径
+  POST /api/report/title - 智能报告标题生成
+  POST /api/debate - 多角色辩论生成
+  POST /api/questions/generate - 智能问题生成
+  POST /api/physics/calculate - 物理学家计算模拟结果
+  POST /api/physics/analyze - 物理学家公式分析（支持流式输出）
+  POST /api/design/chart - 可视化设计师设计图表
+==================================================
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 137-690-107
+127.0.0.1 - - [07/Jan/2026 00:41:08] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [07/Jan/2026 00:42:39] "POST /api/physics/calculate HTTP/1.1" 200 -
+127.0.0.1 - - [07/Jan/2026 00:43:27] "POST /api/physics/analyze HTTP/1.1" 200 -
+127.0.0.1 - - [07/Jan/2026 00:46:33] "POST /api/physics/calculate HTTP/1.1" 200 -
+127.0.0.1 - - [07/Jan/2026 00:47:35] "POST /api/physics/analyze HTTP/1.1" 200 -
+127.0.0.1 - - [07/Jan/2026 00:48:59] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [07/Jan/2026 00:49:25] "POST /api/physics/calculate HTTP/1.1" 200 -
+127.0.0.1 - - [07/Jan/2026 00:50:43] "POST /api/physics/analyze HTTP/1.1" 200 -
+127.0.0.1 - - [07/Jan/2026 00:51:27] "POST /api/analyze HTTP/1.1" 200 -
+127.0.0.1 - - [07/Jan/2026 00:51:47] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [07/Jan/2026 00:51:53] "POST /api/physics/calculate HTTP/1.1" 200 -
+127.0.0.1 - - [07/Jan/2026 00:53:14] "POST /api/physics/analyze HTTP/1.1" 200 -
+127.0.0.1 - - [07/Jan/2026 00:53:57] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [07/Jan/2026 00:57:10] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [07/Jan/2026 00:57:31] "POST /api/physics/calculate HTTP/1.1" 200 -
+127.0.0.1 - - [07/Jan/2026 00:58:34] "POST /api/physics/analyze HTTP/1.1" 200 -
+127.0.0.1 - - [07/Jan/2026 00:59:25] "POST /api/analyze HTTP/1.1" 200 -
+127.0.0.1 - - [07/Jan/2026 01:10:35] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [07/Jan/2026 01:21:18] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [07/Jan/2026 01:24:08] "POST /api/physics/calculate HTTP/1.1" 200 -
+127.0.0.1 - - [07/Jan/2026 01:24:58] "POST /api/physics/analyze HTTP/1.1" 200 -
+127.0.0.1 - - [07/Jan/2026 01:25:42] "POST /api/analyze HTTP/1.1" 200 -
+127.0.0.1 - - [07/Jan/2026 01:26:48] "POST /api/physics/calculate HTTP/1.1" 200 -
+127.0.0.1 - - [07/Jan/2026 01:27:36] "POST /api/physics/analyze HTTP/1.1" 200 -
+127.0.0.1 - - [07/Jan/2026 01:30:23] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [07/Jan/2026 01:30:46] "GET / HTTP/1.1" 200 -
+ * Detected change in '/Users/yangyang/Desktop/Python-jiansudai/app.py', reloading
+==================================================
+飞跃减速带实验系统 - 后端服务器
+==================================================
+服务器启动在: http://localhost:5001
+API文档:
+  POST /api/analyze - 分析用户选择
+  POST /api/chat - 与角色对话
+  POST /api/simulation/advanced - 高级物理模拟
+  POST /api/report/generate - 生成报告
+  GET  /api/statistics - 获取统计数据
+  GET  /api/history/<session_id> - 获取会话历史
+  POST /api/recommend - 智能参数推荐
+  POST /api/risk/assess - 实时风险评估
+  POST /api/learning/path - 个性化学习路径
+  POST /api/report/title - 智能报告标题生成
+  POST /api/debate - 多角色辩论生成
+  POST /api/questions/generate - 智能问题生成
+  POST /api/physics/calculate - 物理学家计算模拟结果
+  POST /api/physics/analyze - 物理学家公式分析（支持流式输出）
+  POST /api/design/chart - 可视化设计师设计图表
+==================================================
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 137-690-107
+ * Detected change in '/Users/yangyang/Desktop/Python-jiansudai/app.py', reloading
+==================================================
+飞跃减速带实验系统 - 后端服务器
+==================================================
+服务器启动在: http://localhost:5001
+API文档:
+  POST /api/analyze - 分析用户选择
+  POST /api/chat - 与角色对话
+  POST /api/simulation/advanced - 高级物理模拟
+  POST /api/report/generate - 生成报告
+  GET  /api/statistics - 获取统计数据
+  GET  /api/history/<session_id> - 获取会话历史
+  POST /api/recommend - 智能参数推荐
+  POST /api/risk/assess - 实时风险评估
+  POST /api/learning/path - 个性化学习路径
+  POST /api/report/title - 智能报告标题生成
+  POST /api/debate - 多角色辩论生成
+  POST /api/questions/generate - 智能问题生成
+  POST /api/physics/calculate - 物理学家计算模拟结果
+  POST /api/physics/analyze - 物理学家公式分析（支持流式输出）
+  POST /api/design/chart - 可视化设计师设计图表
+==================================================
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 137-690-107
+ * Detected change in '/Users/yangyang/Desktop/Python-jiansudai/app.py', reloading
+==================================================
+飞跃减速带实验系统 - 后端服务器
+==================================================
+服务器启动在: http://localhost:5001
+API文档:
+  POST /api/analyze - 分析用户选择
+  POST /api/chat - 与角色对话
+  POST /api/simulation/advanced - 高级物理模拟
+  POST /api/report/generate - 生成报告
+  GET  /api/statistics - 获取统计数据
+  GET  /api/history/<session_id> - 获取会话历史
+  POST /api/recommend - 智能参数推荐
+  POST /api/risk/assess - 实时风险评估
+  POST /api/learning/path - 个性化学习路径
+  POST /api/report/title - 智能报告标题生成
+  POST /api/debate - 多角色辩论生成
+  POST /api/questions/generate - 智能问题生成
+  POST /api/physics/calculate - 物理学家计算模拟结果
+  POST /api/physics/analyze - 物理学家公式分析（支持流式输出）
+  POST /api/design/chart - 可视化设计师设计图表
+==================================================
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 137-690-107
+127.0.0.1 - - [07/Jan/2026 01:35:38] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [07/Jan/2026 01:37:03] "POST /api/physics/calculate HTTP/1.1" 200 -
+127.0.0.1 - - [07/Jan/2026 01:37:49] "POST /api/physics/analyze HTTP/1.1" 200 -
+127.0.0.1 - - [07/Jan/2026 01:38:50] "POST /api/analyze HTTP/1.1" 200 -
+127.0.0.1 - - [07/Jan/2026 01:39:53] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [07/Jan/2026 01:42:55] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [07/Jan/2026 01:43:06] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [07/Jan/2026 01:43:43] "POST /api/physics/calculate HTTP/1.1" 200 -
+127.0.0.1 - - [07/Jan/2026 01:44:25] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [07/Jan/2026 01:44:27] "POST /api/physics/calculate HTTP/1.1" 200 -
+127.0.0.1 - - [07/Jan/2026 01:45:26] "POST /api/physics/analyze HTTP/1.1" 200 -
+127.0.0.1 - - [07/Jan/2026 01:49:24] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [07/Jan/2026 01:49:27] "GET / HTTP/1.1" 200 -
+ * Detected change in '/Users/yangyang/Desktop/Python-jiansudai/app.py', reloading
+==================================================
+飞跃减速带实验系统 - 后端服务器
+==================================================
+服务器启动在: http://localhost:5001
+API文档:
+  POST /api/analyze - 分析用户选择
+  POST /api/chat - 与角色对话
+  POST /api/simulation/advanced - 高级物理模拟
+  POST /api/report/generate - 生成报告
+  GET  /api/statistics - 获取统计数据
+  GET  /api/history/<session_id> - 获取会话历史
+  POST /api/recommend - 智能参数推荐
+  POST /api/risk/assess - 实时风险评估
+  POST /api/learning/path - 个性化学习路径
+  POST /api/report/title - 智能报告标题生成
+  POST /api/debate - 多角色辩论生成
+  POST /api/questions/generate - 智能问题生成
+  POST /api/physics/calculate - 物理学家计算模拟结果
+  POST /api/physics/analyze - 物理学家公式分析（支持流式输出）
+  POST /api/design/chart - 可视化设计师设计图表
+==================================================
+接收到的计算请求: vehicle=高性能跑车, bump=橡胶减速带, location=学校门口, weather=雪, speed=38.0
+接收到的计算请求: vehicle=节能型小型车, bump=橡胶减速带, location=学校门口, weather=晴, speed=58.0
+接收到的计算请求: vehicle=节能型小型车, bump=橡胶减速带, location=学校门口, weather=晴, speed=0.0
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 137-690-107
+127.0.0.1 - - [07/Jan/2026 01:50:38] "GET / HTTP/1.1" 200 -
+ * Detected change in '/Users/yangyang/Desktop/Python-jiansudai/ren/ll.py', reloading
+==================================================
+飞跃减速带实验系统 - 后端服务器
+==================================================
+服务器启动在: http://localhost:5001
+API文档:
+  POST /api/analyze - 分析用户选择
+  POST /api/chat - 与角色对话
+  POST /api/simulation/advanced - 高级物理模拟
+  POST /api/report/generate - 生成报告
+  GET  /api/statistics - 获取统计数据
+  GET  /api/history/<session_id> - 获取会话历史
+  POST /api/recommend - 智能参数推荐
+  POST /api/risk/assess - 实时风险评估
+  POST /api/learning/path - 个性化学习路径
+  POST /api/report/title - 智能报告标题生成
+  POST /api/debate - 多角色辩论生成
+  POST /api/questions/generate - 智能问题生成
+  POST /api/physics/calculate - 物理学家计算模拟结果
+  POST /api/physics/analyze - 物理学家公式分析（支持流式输出）
+  POST /api/design/chart - 可视化设计师设计图表
+==================================================
+ * Restarting with stat
+Traceback (most recent call last):
+  File "/Users/yangyang/Desktop/Python-jiansudai/app.py", line 15, in <module>
+    from ren import gcs, ll, aqy, jt, wl, d3
+  File "/Users/yangyang/Desktop/Python-jiansudai/ren/gcs.py", line 159
+    try:
+    ^^^
+IndentationError: expected an indented block after 'if' statement on line 158

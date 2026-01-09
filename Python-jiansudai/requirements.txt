@@ -1,0 +1,7 @@
+Flask>=2.0.0
+flask-cors>=3.0.0
+requests>=2.25.0
+certifi>=2021.0.0
+mcp-server-time>=0.1.0
+pytz>=2023.3
+
